@@ -1,3 +1,40 @@
+step 1:
+copy Environment File:
+
+Laravel uses a .env file for configuration. Duplicate the example file:
+
+step 2: 
+php artisan key:generate
+Install Composer Dependencies:
+
+step 3:
+Create Database:
+Update Database Configuration:
+
+Open the .env file and update the database connection settings:
+makefile
+Copy code
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ecomm
+DB_USERNAME=root
+DB_PASSWORD=your_database_password
+step 4:
+Run Migrations:
+
+Run the database migrations to create the necessary tables:
+
+php artisan migrate
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
